@@ -15,7 +15,7 @@ def insertionSort(array):
     # begin with the 2nd element
     for currentIndex in range(1, len(array)):
         currentElement = array[currentIndex]
-        previousIndex = currentIndex - 1    
+        previousIndex = currentIndex - 1
         # Insert this element into the sorted sequence array[0 ... j - 1]
         while previousIndex >= 0 and array[previousIndex] > currentElement:
             array[previousIndex + 1] = array[previousIndex]
