@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 18 11:52:41 2021
-
-@author: TatThinhLe
-"""
-
 Array = [1553, 952, 1556, 1685, 83, 1123]
 
 def insertionSort(array):
