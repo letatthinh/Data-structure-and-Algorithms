@@ -16,7 +16,7 @@ def insertionSort(array):
         while previousIndex >= 0 and array[previousIndex] > currentElement:
             array[previousIndex + 1] = array[previousIndex]
             previousIndex = previousIndex - 1
-        # previousIndex + 1: get back to the element because we did minus 1 in the while loop statement
+        # previousIndex + 1: get back to the correct element's position
         array[previousIndex + 1] = currentElement
     return array
 
